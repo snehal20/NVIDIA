@@ -1,0 +1,111 @@
+[
+  {
+    "line": 4,
+    "elements": [
+      {
+        "start_timestamp": "2021-01-21T08:01:13.860Z",
+        "before": [
+          {
+            "result": {
+              "duration": 39922000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefs.StepDef.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Operations on E-Commerce Website",
+        "description": "",
+        "id": "e-commerce-project-website;operations-on-e-commerce-website",
+        "after": [
+          {
+            "output": [
+              "Browser Closed"
+            ],
+            "result": {
+              "duration": 34000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefs.StepDef.cleanUp()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 49473000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is navigated to the Home Application URL",
+            "match": {
+              "location": "stepdefs.StepDef.user_is_navigated_to_the_home_application_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2590000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user click on top right corner of change country tab",
+            "match": {
+              "location": "stepdefs.StepDef.user_click_on_top_right_corner_of_change_country_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "select North America in area and United state in region",
+            "match": {
+              "location": "stepdefs.StepDef.select_north_america_in_area_and_united_state_in_region()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click on stay on United Button",
+            "match": {
+              "location": "stepdefs.StepDef.click_on_stay_on_united_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tt"
+          }
+        ]
+      }
+    ],
+    "name": "E-Commerce project website",
+    "description": "",
+    "id": "e-commerce-project-website",
+    "keyword": "Feature",
+    "uri": "classpath:feature/url.feature",
+    "tags": [
+      {
+        "name": "@tt",
+        "type": "Tag",
+        "location": {
+          "line": 3,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
